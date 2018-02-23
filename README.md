@@ -11,15 +11,17 @@ was run to retrieve these statistics.
 Here is an example of my querying my database after running this program a
 few times with different values:
 
-mysql> select * from prices; </br>
-+----------+----------+--------------------------+ </br>
-| coin     | price    | time                     | </br>
-+----------+----------+--------------------------+ </br>
-| Ripple   | 0.982725 | Fri Feb 23 11:38:05 2018 | </br>
-| Bitcoin  | 10241.0  | Fri Feb 23 11:38:13 2018 | </br>
-| Litecoin | 206.382  | Fri Feb 23 11:38:30 2018 | </br>
-+----------+----------+--------------------------+ </br>
-3 rows in set (0.00 sec) </br>
+```
+mysql> select * from prices;
++----------+----------+--------------------------+ 
+| coin     | price    | time                     | 
++----------+----------+--------------------------+ 
+| Ripple   | 0.982725 | Fri Feb 23 11:38:05 2018 | 
+| Bitcoin  | 10241.0  | Fri Feb 23 11:38:13 2018 | 
+| Litecoin | 206.382  | Fri Feb 23 11:38:30 2018 | 
++----------+----------+--------------------------+ 
+3 rows in set (0.00 sec)
+```
 
 
 Please place your Twilio and db credentials in the **credentials.conf** file.
