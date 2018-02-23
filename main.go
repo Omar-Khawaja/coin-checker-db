@@ -58,11 +58,13 @@ func main() {
 func LoadConfiguration(file string) {
 	configFile, err := ioutil.ReadFile(file)
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
+		return
 	}
 	err = hcl.Decode(&config, string(configFile))
 	if err != nil {
-		panic(err)
+		fmt.Println(err)
+		return
 	}
 }
 
