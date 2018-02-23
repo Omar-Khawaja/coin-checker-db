@@ -9,7 +9,7 @@ name of the coin, the price of the coin, and the time at which the program
 was run to retrieve these statistics.
 
 Here is an example of my querying my database after running this program a
-few times with different values (you can set up a MySQL docker container
+few times with different values (you can set up a MySQL Docker container
 for testing):
 
 ```
