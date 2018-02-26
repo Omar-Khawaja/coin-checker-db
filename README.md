@@ -1,7 +1,8 @@
 This is a simple Go application that calls CoinMarketCap's API to get stats 
 on any cryptocurrency you choose. It then uses your Twilio account to send
 you an SMS with that information. This program is a twist off the original
-https://github.com/Omar-Khawaja/coin-checker and adds a database component.
+[coin-checker](https://github.com/Omar-Khawaja/coin-checker) and adds a
+database component.
 
 This program will create the database **prices** along with a table called
 **prices** if these components do not already exist. It will then store the
@@ -59,3 +60,6 @@ returns the following:
 ```
 The price of Ripple today is $1.02957
 ```
+
+Please note: I have made another version of this program called [coin-checker-frontend](https://github.com/Omar-Khawaja/coin-checker-frontend) that allows the
+user to communicate with the program using a web interface.
